@@ -26,6 +26,6 @@ seconds += 1;
 
 if (digitalRead(buttonPin) == LOW) {
 pause = !pause;
-delay(100); // debounce delay
+delay(100);
 }
 }
